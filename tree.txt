@@ -1,0 +1,241 @@
+.
+├── Img
+│   ├── image 1.png
+│   ├── image 2.png
+│   └── image 3.png
+├── androidApp
+│   ├── build
+│   │   └── classes
+│   │       └── kotlin
+│   │           └── commonizer
+│   ├── build.gradle.kts
+│   └── src
+│       └── main
+│           ├── AndroidManifest.xml
+│           └── java
+│               └── com
+│                   └── brikmas
+│                       └── travelapp
+│                           └── MainActivity.kt
+├── build
+│   └── tmp
+├── build.gradle.kts
+├── desktopApp
+│   ├── build
+│   │   └── classes
+│   │       └── kotlin
+│   │           └── commonizer
+│   ├── build.gradle.kts
+│   └── src
+│       └── jvmMain
+│           └── kotlin
+│               └── main.kt
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── iosApp
+│   ├── Configuration
+│   │   └── Config.xcconfig
+│   ├── Podfile
+│   ├── Podfile.lock
+│   ├── Pods
+│   │   ├── Headers
+│   │   ├── Local Podspecs
+│   │   │   └── shared.podspec.json
+│   │   ├── Manifest.lock
+│   │   ├── Pods.xcodeproj
+│   │   │   ├── project.pbxproj
+│   │   │   └── xcuserdata
+│   │   │       └── bzrlipe.xcuserdatad
+│   │   │           └── xcschemes
+│   │   │               ├── Pods-iosApp.xcscheme
+│   │   │               ├── shared.xcscheme
+│   │   │               └── xcschememanagement.plist
+│   │   └── Target Support Files
+│   │       ├── Pods-iosApp
+│   │       │   ├── Pods-iosApp-Info.plist
+│   │       │   ├── Pods-iosApp-acknowledgements.markdown
+│   │       │   ├── Pods-iosApp-acknowledgements.plist
+│   │       │   ├── Pods-iosApp-dummy.m
+│   │       │   ├── Pods-iosApp-resources-Debug-input-files.xcfilelist
+│   │       │   ├── Pods-iosApp-resources-Debug-output-files.xcfilelist
+│   │       │   ├── Pods-iosApp-resources-Release-input-files.xcfilelist
+│   │       │   ├── Pods-iosApp-resources-Release-output-files.xcfilelist
+│   │       │   ├── Pods-iosApp-resources.sh
+│   │       │   ├── Pods-iosApp-umbrella.h
+│   │       │   ├── Pods-iosApp.debug.xcconfig
+│   │       │   ├── Pods-iosApp.modulemap
+│   │       │   └── Pods-iosApp.release.xcconfig
+│   │       └── shared
+│   │           ├── shared.debug.xcconfig
+│   │           └── shared.release.xcconfig
+│   ├── iosApp
+│   │   ├── Assets.xcassets
+│   │   │   ├── AccentColor.colorset
+│   │   │   │   └── Contents.json
+│   │   │   ├── AppIcon.appiconset
+│   │   │   │   └── Contents.json
+│   │   │   └── Contents.json
+│   │   ├── ComposeView.swift
+│   │   ├── ContentView.swift
+│   │   ├── Info.plist
+│   │   ├── Preview Content
+│   │   │   └── Preview Assets.xcassets
+│   │   │       └── Contents.json
+│   │   └── iOSApp.swift
+│   ├── iosApp.xcodeproj
+│   │   └── project.pbxproj
+│   └── iosApp.xcworkspace
+│       └── contents.xcworkspacedata
+├── local.properties
+├── settings.gradle.kts
+├── shared
+│   ├── build
+│   │   ├── classes
+│   │   │   └── kotlin
+│   │   │       └── commonizer
+│   │   ├── cocoapods
+│   │   │   └── framework
+│   │   │       └── shared.framework
+│   │   │           ├── Headers
+│   │   │           │   └── placeholder.h
+│   │   │           ├── Info.plist
+│   │   │           ├── Modules
+│   │   │           │   └── module.modulemap
+│   │   │           └── shared
+│   │   ├── generated
+│   │   │   └── moko
+│   │   │       ├── androidMain
+│   │   │       │   ├── assets
+│   │   │       │   ├── res
+│   │   │       │   └── src
+│   │   │       ├── commonMain
+│   │   │       │   └── src
+│   │   │       │       └── com
+│   │   │       │           └── brikmas
+│   │   │       │               └── travelapp
+│   │   │       │                   └── SharedRes.kt
+│   │   │       ├── desktopMain
+│   │   │       │   ├── assets
+│   │   │       │   ├── combrikmastravelapp
+│   │   │       │   │   └── res
+│   │   │       │   └── src
+│   │   │       ├── iosArm64Main
+│   │   │       │   ├── assets
+│   │   │       │   ├── res
+│   │   │       │   └── src
+│   │   │       ├── iosSimulatorArm64Main
+│   │   │       │   ├── assets
+│   │   │       │   ├── res
+│   │   │       │   └── src
+│   │   │       └── iosX64Main
+│   │   │           ├── assets
+│   │   │           ├── res
+│   │   │           └── src
+│   │   └── tmp
+│   ├── build.gradle.kts
+│   ├── shared.podspec
+│   └── src
+│       ├── androidMain
+│       │   └── kotlin
+│       │       └── com
+│       │           └── brikmas
+│       │               └── travelapp
+│       │                   └── main.android.kt
+│       ├── commonMain
+│       │   ├── kotlin
+│       │   │   └── com
+│       │   │       └── brikmas
+│       │   │           └── travelapp
+│       │   │               ├── App.kt
+│       │   │               ├── Navigation
+│       │   │               │   ├── Route.kt
+│       │   │               │   └── Screen.kt
+│       │   │               ├── data
+│       │   │               │   ├── FakeCategories.kt
+│       │   │               │   ├── FakeDestinations.kt
+│       │   │               │   └── FakeFavorites.kt
+│       │   │               ├── model
+│       │   │               │   ├── Category.kt
+│       │   │               │   ├── Destination.kt
+│       │   │               │   └── MenuItem.kt
+│       │   │               ├── theme
+│       │   │               │   ├── Color.kt
+│       │   │               │   ├── Theme.kt
+│       │   │               │   └── Type.kt
+│       │   │               ├── ui
+│       │   │               │   ├── component
+│       │   │               │   │   ├── BottomNavigationBar.kt
+│       │   │               │   │   ├── Buttons.kt
+│       │   │               │   │   ├── CategoryCard.kt
+│       │   │               │   │   ├── DestinationCard.kt
+│       │   │               │   │   ├── HeaderCard.kt
+│       │   │               │   │   ├── TitleCard.kt
+│       │   │               │   │   └── verticalscrolllayout.kt
+│       │   │               │   └── screen
+│       │   │               │       ├── CartScreen.kt
+│       │   │               │       ├── DestinationDetailScreen.kt
+│       │   │               │       ├── FavoriteScreen.kt
+│       │   │               │       ├── HomeScreen.kt
+│       │   │               │       └── ProfileScreen.kt
+│       │   │               └── util
+│       │   │                   └── CommonEx.kt
+│       │   └── resources
+│       │       └── MR
+│       │           ├── base
+│       │           │   └── strings.xml
+│       │           ├── colors
+│       │           │   └── colors.xml
+│       │           ├── de
+│       │           │   └── strings.xml
+│       │           ├── files
+│       │           │   └── text_file.txt
+│       │           ├── fonts
+│       │           │   ├── sf_pro_bold.otf
+│       │           │   ├── sf_pro_bold_italic.otf
+│       │           │   ├── sf_pro_heavy.otf
+│       │           │   ├── sf_pro_heavy_italic.otf
+│       │           │   ├── sf_pro_light.otf
+│       │           │   ├── sf_pro_light_italic.otf
+│       │           │   ├── sf_pro_medium.otf
+│       │           │   ├── sf_pro_medium_italic.otf
+│       │           │   ├── sf_pro_regular.otf
+│       │           │   ├── sf_pro_regular_italic.otf
+│       │           │   ├── sf_pro_semi_bold_italic.otf
+│       │           │   └── sf_pro_semibold.otf
+│       │           └── images
+│       │               ├── arrow_forward@1x.png
+│       │               ├── back@1x.png
+│       │               ├── category1@1x.png
+│       │               ├── category2@1x.png
+│       │               ├── category3@1x.png
+│       │               ├── category4@1x.png
+│       │               ├── ci_location@1x.png
+│       │               ├── fav_fil@1x.png
+│       │               ├── humberg_icon@1x.png
+│       │               ├── menu_cart@1x.png
+│       │               ├── menu_fav@1x.png
+│       │               ├── menu_home@1x.png
+│       │               ├── menu_profile@1x.png
+│       │               ├── profile_icon@1x.png
+│       │               └── star@1x.png
+│       ├── desktopMain
+│       │   └── kotlin
+│       │       └── com
+│       │           └── brikmas
+│       │               └── travelapp
+│       │                   └── main.desktop.kt
+│       └── iosMain
+│           └── kotlin
+│               └── com
+│                   └── brikmas
+│                       └── travelapp
+│                           ├── AppViewiOS.kt
+│                           └── MainViewController.kt
+└── tree.txt
+
+121 directories, 118 files

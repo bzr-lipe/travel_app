@@ -1,0 +1,5 @@
+build
+build.gradle.kts
+local.properties
+output.txt
+src
